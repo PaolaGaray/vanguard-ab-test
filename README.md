@@ -28,7 +28,7 @@ The datasets include user behaviour data from an A/B test, split into a control 
 
 ## Main Dataset Issues
 - Missing Data: Some fields, particularly user age and tenure, were incomplete or missing for certain users.
-- Skewed Distribution: The tenure distribution is left-skewed with three distinct peaks, making standard data transformations ineffective (the mode is 6 years).
+- Skewed Distribution: The tenure distribution is left-skewed with three distinct peaks, making standard data transformations inefficient (the mode is 6 years).
 - Imbalanced Outcomes: A relatively high proportion of users completed the process, but drop-offs were concentrated in specific demographics (older users, long-tenured clients).
 
 # Conclussions
